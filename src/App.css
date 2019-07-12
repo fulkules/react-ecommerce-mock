@@ -44,4 +44,10 @@ body {
 .cart-icon {
   font-size: 1.2rem;
   color: var(--mainYellow);
+  cursor: pointer;
+}
+.cart-icon:hover {
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.2);
+  background: rgba(0, 0, 0, 0.1);
 }
