@@ -7,6 +7,8 @@
   --mainYellow: #ffa400;
 }
 
+/* yes -- I used `!important` flags, but I had to override the default bootstrap styles in these cases */
+
 body {
   font-family: "Oswald", sans-serif !important;
   background: var(--mainWhite) !important;
@@ -37,6 +39,7 @@ body {
 .btn-black:hover {
   background: var(--mainDark) !important;
   color: var(--mainWhite) !important;
+  cursor: pointer;
 }
 .cart-icon {
   font-size: 1.2rem;
