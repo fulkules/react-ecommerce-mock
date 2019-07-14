@@ -9,7 +9,6 @@ export default class Navbar extends Component {
       <Nav className="navbar navbar-expand-sm  navbar-dark px-sm-5">
         <Link to="/">
           <i className="fas fa-basketball-ball fa-2x" />
-          {/* <img src={logo} alt="store-home"  /> */}
         </Link>
         <ul className="navbar-nav align-items-center">
           <li className="nav-item ml-5">
